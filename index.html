@@ -3,27 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santa Cruz Essentials</title>
+    <title>Santa Cruz Essentials 2026</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f7f4; color: #2d3436; margin: 0; padding: 20px; }
-        header { text-align: center; background: #00b894; color: white; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
-        .category { background: white; padding: 15px; border-radius: 8px; margin-bottom: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 5px solid #00cec9; }
-        h2 { color: #0984e3; margin-top: 0; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f0f4f8; }
+        h1 { color: #0056b3; text-align: center; border-bottom: 2px solid #0056b3; padding-bottom: 10px; }
+        .card { background: white; padding: 20px; margin: 20px 0; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 5px solid #0056b3; }
+        .btn { display: inline-block; background: #0056b3; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; cursor: pointer; border: none; }
+        .btn:hover { background: #004494; }
+        #giveaway { background-color: #f4f1ea; padding: 30px; margin-top: 50px; border-radius: 15px; border: 1px solid #d4af37; text-align: center; font-family: 'Georgia', serif; }
     </style>
 </head>
 <body>
-    <header><h1>Santa Cruz Essentials</h1><p>Your guide to the "Hidden Patterns" of the coast.</p></header>
-    
-    <div class="category"><h2>🏖️ The Beaches</h2><ul><li>Main Beach (The Boardwalk energy)</li><li>Natural Bridges (The Monarch "G-Code")</li><li>Pleasure Point (Surf culture at its peak)</li></ul></div>
-    
-    <div class="category"><h2>🥾 Coastal Hikes</h2><ul><li>Wilder Ranch (Rugged cliffs and history)</li><li>Henry Cowell (Redwood giants)</li><li>Pogonip (The local's secret trails)</li></ul></div>
-    
-    <div class="category"><h2>🍽️ Top Eateries</h2><ul><li>The Picnic Basket (Oysters and beach vibes)</li><li>Lillian's Italian Kitchen (Old-school Santa Cruz)</li><li>Verve Coffee (The "vibration" of local caffeine)</li></ul></div>
-    
-    <div class="category"><h2>🎭 Local Events</h2><ul><li>Tuesday Farmers Market (Downtown heartbeat)</li><li>First Friday Art Tours (Bohemian soul)</li><li>Boardwalk Summer Concerts</li></ul></div>
-    
-    <div class="category"><h2>🍇 Vineyard Life</h2><ul><li>Santa Cruz Mountain Wineries (The "Andes" of California)</li><li>Local Wine Tasting Rooms (West Side energy)</li></ul></div>
+
+    <h1>Santa Cruz Visitor App 2026</h1>
+    <p style="text-align: center; font-style: italic;">A local's guide to hidden patterns, geology, and coastal beauty.</p>
+
+    <div class="card">
+        <h3>📍 Geological Hidden Patterns</h3>
+        <p>Explore the Santa Margarita Sandstone formations and the ancient sea history buried beneath the mountains.</p>
+        <button class="btn" onclick="alert('Feature coming soon: Interactive Geology Map!')">Explore Map</button>
+    </div>
+
+    <div class="card">
+        <h3>🍷 Local Vineyards & Oyster Bars</h3>
+        <p>From the complex flavors of the wharf to the high-elevation pinots of the summit.</p>
+        <button class="btn" onclick="alert('Feature coming soon: Local Tasting Guide!')">View Guide</button>
+    </div>
+
+    <div id="giveaway">
+        <h2 style="color: #5d4037;">The Gilded Invitation</h2>
+        <p style="font-style: italic; color: #795548;">"Like a cable car ascending through the redwoods, help me elevate this guide."</p>
+        <p>I’m looking for local feedback! One lucky tester will win a <strong>$200 Shadowbrook Gift Certificate</strong>.</p>
+        
+        <form action="https://formspree.io/f/xknbgeee" method="POST" style="max-width: 400px; margin: 0 auto;">
+            <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
+            <textarea name="feedback" placeholder="What local 'Hidden Pattern' should I add next?" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; height: 80px;"></textarea>
+            <button type="submit" class="btn" style="background-color: #d4af37; width: 100%;">Enter Giveaway</button>
+        </form>
+    </div>
+
+    <footer style="text-align: center; margin-top: 40px; font-size: 0.8em; color: #777;">
+        &copy; 2026 Santa Cruz Essentials | Created by Edward
+    </footer>
+
 </body>
 </html>
